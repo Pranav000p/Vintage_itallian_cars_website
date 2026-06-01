@@ -1,4 +1,7 @@
 import React from "react";
+
+export const dynamic = 'force-dynamic';
+
 import PageTransition from "@/components/layout/PageTransition";
 import { siteConfig } from "@/lib/site-config";
 import SectionDivider from "@/components/ui/SectionDivider";

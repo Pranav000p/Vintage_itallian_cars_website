@@ -7,6 +7,7 @@ import { SmoothScrollProvider } from "@/components/providers/SmoothScrollProvide
 import CustomCursor from "@/components/ui/CustomCursor";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteConfig.seo.canonical),
   title: {
     default: siteConfig.seo.title,
     template: `%s | ${siteConfig.nome}`,

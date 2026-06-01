@@ -1,5 +1,7 @@
 import HeroSection from "@/components/sections/HeroSection";
 import IntroSection from "@/components/sections/IntroSection";
+
+export const dynamic = 'force-dynamic';
 import MarqueeSection from "@/components/sections/MarqueeSection";
 import CarCollectionSection from "@/components/sections/CarCollectionSection";
 import HeritageSection from "@/components/sections/HeritageSection";
